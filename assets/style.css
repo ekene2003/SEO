@@ -8,8 +8,11 @@
 }
 .acp-header{
  display: flex;
+ justify-content: space-between;
+ align-items: center;
  position: absolute;
  top: 0;
+ width: 100%;
 }
 .logo{
 display: flex;
@@ -25,7 +28,8 @@ width: 6rem;
 border-radius: 50%;
 }
 .brand-h{
-font-size: 1rem;
+font-size: 1.4rem;
+color: #005bd2;
 }
 .brand-p{
 color: white;
@@ -40,4 +44,16 @@ color: white;
 .bg{
  position: relative;
  background: black;
+}
+.header-links{
+
+}
+.link-wrap{
+ display: flex;
+ gap: 2rem;
+margin-right: 2rem;
+}
+.links{
+ color: white;
+font-size:1.3rem;
 }
