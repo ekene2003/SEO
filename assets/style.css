@@ -6,3 +6,23 @@
  text-decoration: none;
  list-style-type: none;
 }
+.acp-header{
+ display: flex;
+}
+.logo{
+display: flex;
+}
+.logo-r{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.brand-img{
+height: 5rem;
+}
+.brand-h{
+font-size: 1rem;
+}
+.brand-p{
+color: grey;
+}
