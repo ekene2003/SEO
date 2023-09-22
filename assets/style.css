@@ -69,6 +69,7 @@
     text-align: center;
     position: absolute;
     top: 36vh;
+    overflow: hidden;
   }
   .home-header {
     font-size: 4rem;
@@ -129,6 +130,7 @@
     background: #fbf8f5;
     flex-direction: column;
     width: 100%;
+    overflow: hidden;
   }
   .flyers {
     /* background: #000; */
