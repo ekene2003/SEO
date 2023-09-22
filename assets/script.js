@@ -32,7 +32,7 @@ setInterval(() => {
 }, 5000);
 
 let aboutImg = ["Social Media File 2.jpg","Social Media File 3.jpg","Social Media File 4.jpg"];
-let aboutWrap = document.querySelector(".about-left");
+let aboutWrap = document.querySelector(".about-right");
 b=0
 setInterval(() => {
  b++;
@@ -40,7 +40,7 @@ setInterval(() => {
    b=0
   }
   aboutWrap.innerHTML=`
-  <img src="./assets/images/${aboutImg[i]}" alt="" class="flyer-img">
+  <img src="./assets/images/${aboutImg[i]}" alt="" class="about-img">
   `
 
 }, 2000);
