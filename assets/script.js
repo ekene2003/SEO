@@ -2,6 +2,41 @@
 let open = document.querySelector(".open")
 let close = document.querySelector(".close")
 let navList = document.querySelector(".link-wrap")
+let count = document.querySelector(".counts")
+c = -5;
+d = 130;
+e = -4;
+let countInt = setInterval(() => {
+  c++;
+  d++;
+  e++;
+    count.innerHTML=`   <div  data-aos="zoom-in" data-aos-duration="2000" class="count-wrap">
+    <h2 class="count-h mt-3">${c}M+</h2>
+    <p class="count-p">
+        over a million registered members
+    </p>
+</div>
+<div  data-aos="zoom-in" data-aos-duration="2000" class="count-wrap">
+    <h2 class="count-h mt-3">
+        ${d}M+
+    </h2>
+    <p class="count-p">
+        saved money across the country
+    </p>
+</div>
+<div  data-aos="zoom-in" data-aos-duration="2000" class="count-wrap">
+    <h2 class="count-h mt-3">
+    ${e}M+
+    </h2>
+    <p class="count-p">
+        vacancies across the country
+    </p>
+</div>`;
+if (c==1) {
+  clearInterval(countInt);
+}
+  console.log(c)
+}, 700);
 
 open.onclick=()=>{
  navList.style.left = "0%";
