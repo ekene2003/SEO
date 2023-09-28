@@ -36,7 +36,7 @@ if (c==1) {
   clearInterval(countInt);
 }
   console.log(c)
-}, 700);
+}, 600);
 
 open.onclick=()=>{
  navList.style.left = "0%";
