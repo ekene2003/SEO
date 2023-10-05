@@ -10,7 +10,7 @@ let countInt = setInterval(() => {
   c++;
   d++;
   e++;
-    count.innerHTML=`   <div  data-aos="zoom-in" data-aos-duration="2000" class="count-wrap">
+    count.innerHTML=`   <div class="count-wrap">
     <h2 class="count-h mt-3">${c}M+</h2>
     <p class="count-p">
         over a million registered members
@@ -62,8 +62,6 @@ setInterval(() => {
   bg.innerHTML=`
   <img src="./assets/images/${heroImg[i]}" alt="" class="flyer-img">
   `
- 
-
 }, 5000);
 
 let aboutImg = ["Social Media File 2.jpg","Social Media File 3.jpg","Social Media File 4.jpg"];
@@ -78,4 +76,4 @@ setInterval(() => {
   <img src="./assets/images/${aboutImg[i]}" alt="" class="about-img">
   `
 
-}, 2000);
+}, 5000);
