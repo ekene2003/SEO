@@ -95,6 +95,9 @@
     justify-content: center;
     align-items: center;
   }
+  .learn-btn:hover{
+    color: #005bd2;
+  }
   .learn-btn {
     padding: 0.6rem;
     background: transparent;
