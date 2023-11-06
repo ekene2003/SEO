@@ -35,7 +35,7 @@ let countInt = setInterval(() => {
 if (c==1) {
   clearInterval(countInt);
 }
-  console.log(c)
+  // console.log(c)
 }, 600);
 
 open.onclick=()=>{
@@ -56,9 +56,9 @@ i = -1
 //   `
 setInterval(() => {
  i++;
-  if (i==3) {
-   i=0
-  }
+    if (i==3) {
+    i=0
+    }
   bg.innerHTML=`
   <img src="./assets/images/${heroImg[i]}" alt="" class="flyer-img">
   `
